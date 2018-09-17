@@ -7,9 +7,8 @@
 
 def main():
     target_str = "stressed"
-    tmp_list = [s for s in target_str][::-1]
-    answer = "".join(tmp_list)
-    print (answer)
+    target_str = target_str[::-1]
+    print(target_str)
 
 if __name__ == "__main__":
     main()
